@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-p1",
-      "name": "p1",
+      "id": "0--1",
+      "name": "вид 1",
       "levels": [
         {
           "tileSize": 256,
@@ -24,36 +24,42 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.4143150530730324,
-        "pitch": 0.08236468977403355,
+        "yaw": -0.3544544633297999,
+        "pitch": 0.13890597834590857,
         "fov": 1.500156367942225
       },
       "linkHotspots": [
         {
-          "yaw": 0.16784976076803382,
-          "pitch": 0.014832095309307292,
-          "rotation": 0,
-          "target": "1-p2"
+          "yaw": 0.2836491480987391,
+          "pitch": 0.08318433916693024,
+          "rotation": 3.141592653589793,
+          "target": "1-"
         },
         {
-          "yaw": -1.0096882377083354,
-          "pitch": 0.0822879500584861,
+          "yaw": -1.0047892995853793,
+          "pitch": 0.057079606588896326,
           "rotation": 3.141592653589793,
-          "target": "2-p3"
+          "target": "3--"
+        },
+        {
+          "yaw": -0.06828388448698064,
+          "pitch": 0.14539736042679152,
+          "rotation": 3.141592653589793,
+          "target": "2--"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.0118721090086549,
-          "pitch": 0.16485908879893074,
+          "yaw": -0.9863157582612398,
+          "pitch": 0.19174669625117424,
           "title": "Красное здание<br>",
           "text": "XZxzxz<br>"
         }
       ]
     },
     {
-      "id": "1-p2",
-      "name": "p2",
+      "id": "1-",
+      "name": "ангар",
       "levels": [
         {
           "tileSize": 256,
@@ -79,19 +85,12 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": 1.2354664165511675,
-          "pitch": 0.08752868314368811,
-          "rotation": 0,
-          "target": "0-p1"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "2-p3",
-      "name": "p3",
+      "id": "2--",
+      "name": "маленькой кр.здание",
       "levels": [
         {
           "tileSize": 256,
@@ -117,18 +116,42 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3--",
+      "name": "кр. здание",
+      "levels": [
         {
-          "yaw": 1.642505699366958,
-          "pitch": 0.042976247000868995,
-          "rotation": 0,
-          "target": "0-p1"
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "xzxzxz",
+  "name": "test-tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
