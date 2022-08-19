@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0--1",
-      "name": "вид 1",
+      "name": "энергокомплекс",
       "levels": [
         {
           "tileSize": 256,
@@ -52,8 +52,8 @@ var APP_DATA = {
         {
           "yaw": -0.9863157582612398,
           "pitch": 0.19174669625117424,
-          "title": "Красное здание<br>",
-          "text": "XZxzxz<br>"
+          "title": "Общага<br>",
+          "text": "Терем красный чудной)<br>"
         }
       ]
     },
@@ -135,7 +135,7 @@ var APP_DATA = {
     },
     {
       "id": "3--",
-      "name": "кр. здание",
+      "name": "общага",
       "levels": [
         {
           "tileSize": 256,
